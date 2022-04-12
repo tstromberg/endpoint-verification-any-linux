@@ -28,7 +28,6 @@ while true; do
     case $yn in
         [Yy]* )
             install -d /etc/chromium/native-messaging-hosts
-	    install unpacked/data/etc/opt/chrome/native-messaging-hosts/com.google.secure_connect.native_helper.json /etc/chromium/native-messaging-hosts/com.google.secure_connect.native_helper.json
 	    install unpacked/data/etc/opt/chrome/native-messaging-hosts/com.google.endpoint_verification.api_helper.json /etc/chromium/native-messaging-hosts/com.google.endpoint_verification.api_helper.json
 	    break;;
         [Nn]* ) break;;
